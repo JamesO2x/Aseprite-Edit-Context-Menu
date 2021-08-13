@@ -3,13 +3,15 @@ A simple registry snippet, adds an "Edit with Aseprite" option to your right-cli
 
 ![Sample Image](sample.gif)
 
+Source URL: https://github.com/JamesO2x/Aseprite-Edit-Context-Menu
+
 ## Do take note:
 > Selecting multiple files and clicking this option will launch multiple instances of Aseprite.exe! I'm not sure if there is an easy way to send all files to "one window" and open them inside Aseprite as tabs. That would likely require some programming from the develpers to solve, as Windows doesn't support this feature natively.
 
 # How to Install
-To add this option to your context-menu, just save the `asepriteOpenFile.reg` registry file to your computer and double-click to add it to your registry.
+**Download Method:** To add this option to your context-menu, just save the `asepriteOpenFile.reg` registry file to your computer and double-click to add it to your registry. You can download this file and this readme by clicking the `code` button in the upper right, and selecting `Dowload ZIP` option.
 
-Alternatively, you can just copy the text from the `asepriteOpenFile.reg` here in your browser, and paste it into a blank Notepad window. Then save the file as `asepriteOpenFile.reg` and double-click it to add to your registry.
+**Copy/Paste Method:** Alternatively, you can just copy the text from the `asepriteOpenFile.reg` above in your browser, then paste the text into a blank Notepad window. Next, save the file as `asepriteOpenFile.reg` and double-click the file to add its data to your registry.
 
 # How to Remove
 To remove this option from your context-menu, just open your registry editor and delete this entry.
