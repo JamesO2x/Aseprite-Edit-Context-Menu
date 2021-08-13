@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+; Add a right-click Context Menu for opening files in Aseprite.
+
+; These lines add the text to the right-click menu.
+[HKEY_CLASSES_ROOT\*\shell\Open with Aseprite]
+@="Edit with Aseprite"
+; This line sets the icon in the right-click menu. If you don't want an icon, just delete the line below.
+"Icon"="C:\\Program Files (x86)\\Steam\\steamapps\\common\\Aseprite\\Aseprite.exe,0"
+
+; These lines run the Aseprite.exe program, then it tells Aseprite to open the file you selected.
+[HKEY_CLASSES_ROOT\*\shell\Open with Aseprite\command]
+@="\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Aseprite\\Aseprite.exe\" \"%1\""
+
+; That's basically it. If you installed Aseprite in a different location just change the paths on two lines as required. you have to use a double slash \\ in the file paths here, otherwise Windows Registry won't interpret the command correctly.
+
+; Do take note: Selecting multiple files and clicking this option will launch multiple instances of Aseprite.exe! I'm not sure if there is an easy way to send all files to "one window" and open them inside Aseprite as tabs. That would likely require some programming from the develpers to solve, as Windows doesn't support this feature natively.
+
+
+; If you appreciate this little add-on, feel free to drop me a tip: https://ko-fi.com/jamesorthii
+; Or check out some of my other work. I make art, animations, and small productivity apps:
+; https://jameso2.itch.io/
+; https://youtu.be/NSzUt5DZ2tk
+; https://jamesorthii.wixsite.com/portfolio
+; https://twitter.com/JamesOrthII
