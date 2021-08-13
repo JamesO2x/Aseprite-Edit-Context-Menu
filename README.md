@@ -3,7 +3,10 @@ A simple registry snippet, adds an "Edit with Aseprite" option to your right-cli
 
 ![Sample Image](sample.gif)
 
-## Do take note: Selecting multiple files and clicking this option will launch multiple instances of Aseprite.exe! I'm not sure if there is an easy way to send all files to "one window" and open them inside Aseprite as tabs. That would likely require some programming from the develpers to solve, as Windows doesn't support this feature natively.
+## Do take note:
+> Selecting multiple files and clicking this option will launch multiple instances of Aseprite.exe! I'm not sure if there is an easy way to send all files to "one window" and open them inside Aseprite as tabs. That would likely require some programming from the develpers to solve, as Windows doesn't support this feature natively.
+
+---
 
 If you appreciate this little add-on, feel free to drop me a tip: https://ko-fi.com/jamesorthii
 
@@ -12,3 +15,5 @@ Or check out some of my other work. I make art, animations, and small productivi
 - https://youtu.be/NSzUt5DZ2tk
 - https://jamesorthii.wixsite.com/portfolio
 - https://twitter.com/JamesOrthII
+
+![JamesO2](https://i.imgur.com/wlAXu7r.png) JamesO2
